@@ -7,6 +7,7 @@ import { useNavigate } from 'react-router-dom';
 import ParticularServiceCard1 from './Services/ParticularServiceCard1';
 import ParticularServiceCard2 from './Services/ParticularServiceCard2';
 import ParticularServiceCard3 from './Services/ParticularServiceCard3';
+import serviceBg from '../Assets/courseBg.png'
 
 const MoreServices = () => {
   const navigate=useNavigate();
@@ -29,7 +30,7 @@ const MoreServices = () => {
       <div className="OuterContainer">
         <div className="InnerContainer">
           <div>
-            <center><img src="https://automatealgos.github.io/assets/images/service/bg.png" /></center>
+            <center><img src={serviceBg} /></center>
           </div>
           <div>
             <center><h1>Services</h1></center>

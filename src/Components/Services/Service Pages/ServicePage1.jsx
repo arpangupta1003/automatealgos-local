@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../../Navbar";
 import ModifiedNavbar from '../../ModifiedNavbar';
 import { CiBookmarkCheck } from "react-icons/ci";
+import serviceimg from '../../../Assets/service.png'
 
 import {
   Card,
@@ -30,7 +31,7 @@ const ServicePage1 = () => {
           <div className="mainDiv">
             <div style={{ display: "flex", justifyContent: "center" }}>
               <img
-                src="https://automatealgos.github.io/assets/images/service/bg.png"
+                src={serviceimg}
                 style={{ maxWidth: "100%", marginTop: "65px" }}
               />
             </div>

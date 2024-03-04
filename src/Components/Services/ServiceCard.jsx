@@ -5,24 +5,27 @@ import {
   CardText,
   CardSubtitle,
 } from "reactstrap";
+import course1 from '../../Assets/Course_Service/course1.png';
+import course2 from '../../Assets/Course_Service/course2.png';
+import course3 from '../../Assets/Course_Service/course3.png';
 const data = [
   {
     heading: "Algorithmic Trading Setup Development",
     about:
       "We assist in setting up a robust algorithmic trading infrastructure, ensuring you have the right tools and platforms to start trading efficiently.",
-    img: "   https://automatealgos.github.io/assets/images/service/1.png",
+    img:course1,
   },
   {
     heading: "Strategy Development and Web Testing",
     about:
       "We help you create and refine winning trading strategies, with thorough historical testing to ensure their effectiveness.",
-    img: "https://automatealgos.github.io/assets/images/service/2.png",
+    img: course2,
   },
   {
     heading: "1:1 Algorithmic Trading Python Mentorship",
     about:
       "Personalized Python mentorship to automate your trading, suitable for both beginners and experienced traders.",
-    img: "https://automatealgos.github.io/assets/images/service/3.png",
+    img:course3,
   },
 ];
 const ServiceCard = () => {

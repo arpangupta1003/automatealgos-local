@@ -2,6 +2,7 @@ import React from "react";
 import { Card, CardBody, CardText, CardSubtitle } from "reactstrap";
 import { useNavigate } from "react-router-dom";
 import '../../CSS/ParticularServiceCard.css';
+import course1 from '../../Assets/Course_Service/course1.png';
 
 
 const data = [
@@ -9,7 +10,7 @@ const data = [
     heading: "Algorithmic Trading Setup Development",
     about:
       "We assist in setting up a robust algorithmic trading infrastructure, ensuring you have the right tools and platforms to start trading efficiently.",
-    img: "   https://automatealgos.github.io/assets/images/service/1.png",
+    img:course1,
   },
 ];
 const ServiceCard = () => {

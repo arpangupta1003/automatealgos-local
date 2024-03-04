@@ -2,12 +2,14 @@ import React from "react";
 import { Card, CardBody, CardText, CardSubtitle } from "reactstrap";
 import { useNavigate } from "react-router-dom";
 import '../../CSS/ParticularServiceCard.css';
+import course2 from '../../Assets/Course_Service/course2.png';
+
 const data = [
   {
     heading: "Strategy Development and Web Testing",
     about:
       "We help you create and refine winning trading strategies, with thorough historical testing to ensure their effectiveness.",
-    img: "https://automatealgos.github.io/assets/images/service/2.png",
+    img:course2,
   },
 ];
 const ServiceCard = () => {

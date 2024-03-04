@@ -7,24 +7,27 @@ import {
   CardSubtitle,
   CardLink,
 } from "reactstrap";
+import course1 from '../Assets/Course_Service/course1.png'
+import course2 from '../Assets/Course_Service/course2.png'
+import course3 from '../Assets/Course_Service/course3.png'
 const data = [
   {
     heading: "Python for Finance (for Beginners)",
     about:
       "Explore the fundamentals of Python programming in the context of finance. This course is perfect for those new to both Python and finance, providing a solid starting point for automating financial tasks and exploring the world of algorithmic trading",
-    img: "   https://automatealgos.github.io/assets/images/service/1.png",
+    img:course1,
   },
   {
     heading: "Algorithmic Trading with Python",
     about:
       "Elevate your trading game with our comprehensive Algorithmic Trading with Python course. Dive deep into data analysis, backtesting, and live trading implementation using Python.",
-    img: "https://automatealgos.github.io/assets/images/service/2.png",
+    img:course2,
   },
   {
     heading: "Algorithmic Trading with AmiBroker",
     about:
       "Unleash the full potential of AmiBroker with our specialized course. Learn how to create, optimize, and automate trading strategies using this powerful software. Ideal for traders looking to leverage AmiBroker's capabilities for algorithmic trading success.",
-    img: "https://automatealgos.github.io/assets/images/service/3.png",
+    img:course3,
   },
 ];
 const CourseCard = () => {

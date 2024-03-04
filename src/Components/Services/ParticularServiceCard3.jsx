@@ -2,13 +2,15 @@ import React from "react";
 import { Card, CardBody, CardText, CardSubtitle } from "reactstrap";
 import { useNavigate } from "react-router-dom";
 import '../../CSS/ParticularServiceCard.css';
+import course3 from '../../Assets/Course_Service/course3.png';
+
 
 const data = [
   {
     heading: "1:1 Algorithmic Trading Python Mentorship",
     about:
       "Personalized Python mentorship to automate your trading, suitable for both beginners and experienced traders.",
-    img: "https://automatealgos.github.io/assets/images/service/3.png",
+    img:course3,
   },
 ];
 const ServiceCard = () => {

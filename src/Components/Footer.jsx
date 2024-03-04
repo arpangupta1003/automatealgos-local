@@ -1,5 +1,6 @@
 import React from "react";
 import "../CSS/Footer.css";
+import logo from '../Assets/logo.png'
 const Footer = () => {
   return (
     <>
@@ -44,7 +45,7 @@ const Footer = () => {
               <div class="row mt-3">
                 <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                   <h6 class="text-uppercase fw-bold mb-4">
-                    <img src="https://automatealgos.in/assets/images/logo/logo-dark.png" />
+                    <img src={logo} />
                     Automate Algos
                   </h6>
                   <p>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import logo from '../Assets/logo.png'
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -22,7 +22,7 @@ const Navbar = () => {
       <nav id="navbar" className={`navbar navbar-expand-lg ${isScrolled ? 'navbar-blur' : ''} sticky-top`}>
         <div class="container">
           <a class="navbar-brand" href="#">
-            <img src="https://automatealgos.in/assets/images/logo/logo.png" alt="Logo" />
+            <img src={logo} alt="Logo" />
           </a>
           <button
             class="navbar-toggler"
