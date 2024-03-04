@@ -71,7 +71,7 @@ export default class Testimonials extends Component {
               {testimonials.map((data, index) => (
                 <div>
                   <img src={data.image} />
-                  <div className="myCarousel">
+                  <div className="myCarousel" style={{height:"55vh"}}>
                     <h3
                       style={{ fontSize: "1.4em", margin: "15px 0px 10px 0px" }}
                     >
