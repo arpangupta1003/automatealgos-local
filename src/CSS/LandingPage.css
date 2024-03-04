@@ -1,7 +1,7 @@
 .outerContainerLanding {
   
   background-repeat: no-repeat; 
-  background-image: url("https://automatealgos.github.io/assets/images/banner/home1/bg.png");
+  background-image: url("../Assets/bg.png");
   background-repeat: no-repeat;
   
   display: flex;
@@ -95,7 +95,7 @@
 
 @media only screen and (max-width: 768px) {
   .outerContainerLanding {
-    background-image: url("https://automatealgos.github.io/assets/images/banner/home1/bg.png");
+    background-image: url("../Assets/bg.png");
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
@@ -116,7 +116,7 @@
 
 @media only screen and (max-width: 480px) {
   .outerContainerLanding {
-    background-image: url("https://automatealgos.github.io/assets/images/banner/home1/bg.png");
+    background-image: url("../Assets/bg.png");
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;

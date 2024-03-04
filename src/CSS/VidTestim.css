@@ -1,7 +1,7 @@
 .vidTestOuterDiv{
-    height: 120vh;
+    height: 100vh;
     /* background-color: blanchedalmond; */
-    background-image: url("https://automatealgos.github.io/assets/images/banner/home1/bg.png");
+    background-image: url("../Assets/bg.png");
   background-repeat: no-repeat;
 }
 .vidTestInnerDiv
@@ -18,10 +18,10 @@
 }
 @media only screen and (max-width: 768px) {
     .vidTestOuterDiv{
-        height: 150vh;
+        height: 96vh;
         /* background-color: black; */
-        background-image: url("https://automatealgos.github.io/assets/images/banner/home1/bg.png");
-  background-repeat: no-repeat;
+        background-image: url("../Assets/bg.png");
+        background-repeat: no-repeat;
     }
     .myCarousel{
         height: fit-content;

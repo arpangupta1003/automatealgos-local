@@ -9,7 +9,7 @@
   justify-content: space-around;
   /* background-image: url('https://media.istockphoto.com/id/1369811313/vector/pink-lavender-background-vector-graphic-pattern.jpg?s=612x612&w=0&k=20&c=rNzYhyybvfvXP59fcaSwKt3G7ufuVK5HUYveyYDTst0='); */
   background-repeat: no-repeat;
-  background-image: url("https://automatealgos.github.io/assets/images/banner/home1/bg.png");
+  background-image: url("../Assets/bg.png");
   overflow-y: hidden;
   filter: blur(npx);
   background-size: cover;

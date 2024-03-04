@@ -1,48 +1,46 @@
 .Container {
-    background-image: url('https://automatealgos.github.io/assets/images/banner/home1/bg.png');
-    display: flex;
-    justify-content: center;
-    margin: 80px 10px;
-  }
-  
+  background-image: url("../Assets/bg.png");
+  display: flex;
+  justify-content: center;
+  margin: 80px 10px;
+}
+
+.CourseCardDiv {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  margin: 10px 20px;
+}
+.headingDiv {
+  margin-top: 60px;
+}
+.aboutpara {
+  font-size: 24px;
+}
+@media only screen and (max-width: 768px) {
   .CourseCardDiv {
-    margin-top: 30px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
   }
   .card {
-    margin: 10px 20px;
+    display: flex;
+    justify-content: center;
+    margin: 5px auto;
   }
-  .headingDiv{
-    margin-top: 60px;
-  }
-  .aboutpara{
-    font-size: 24px;
-  }
-  @media only screen and (max-width: 768px) {
-    .CourseCardDiv {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-    .card{
-      display: flex;
-      justify-content: center;
-      margin: 5px auto;
-    }
-  }
-  
-  @media only screen and (max-width: 480px) {
-      .CourseCardDiv {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-      }
-      .card{
-        display: flex;
-        justify-content: center;
-        margin: 5px auto;
+}
 
-      }
-    }
-    
+@media only screen and (max-width: 480px) {
+  .CourseCardDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .card {
+    display: flex;
+    justify-content: center;
+    margin: 5px auto;
+  }
+}

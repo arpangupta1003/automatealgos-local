@@ -2,7 +2,7 @@
 .TestOuterDiv{
   height: 80vh;
   /* background-color: black; */
-  background-image: url("https://automatealgos.github.io/assets/images/banner/home1/bg.png");
+  background-image: url("../Assets/bg.png");
   background-repeat: no-repeat;
 }
 .TestInnerDiv

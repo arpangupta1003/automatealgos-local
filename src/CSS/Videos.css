@@ -1,6 +1,6 @@
 .VideosPageId {
   width: 100%;
-  background-image: url('https://automatealgos.github.io/assets/images/banner/home1/bg.png');
+  background-image: url("../Assets/bg.png");
   background-repeat: no-repeat;
   height: 80vh;
   background-size: cover;

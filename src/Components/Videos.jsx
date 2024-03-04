@@ -99,7 +99,7 @@ export default class Testimonials extends Component {
                       src={`https://www.youtube.com/embed/${data.url}`}
                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen
-                      style={{ margin: "30px auto" }}
+                      style={{ margin: "30px auto 10px auto" }}
                     />
                     <h3
                       style={{ fontSize: "1.4em", margin: "15px 0px 10px 0px" }}
