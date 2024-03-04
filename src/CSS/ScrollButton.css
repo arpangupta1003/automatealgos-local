@@ -1,0 +1,52 @@
+/* ScrollToTopButton.css */
+
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #5081b4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 10px;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  #scrollToTopBtn.show {
+    display: block;
+    opacity: 1;
+  }
+  
+  #scrollToTopBtn.hide {
+    opacity: 0;
+  }
+  @media only screen and (max-width: 768px) {
+    
+#scrollToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #5081b4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 10px;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#scrollToTopBtn.show {
+  display: block;
+  opacity: 1;
+}
+
+#scrollToTopBtn.hide {
+  opacity: 0;
+}
+  }
+  

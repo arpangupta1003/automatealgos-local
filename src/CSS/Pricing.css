@@ -1,0 +1,71 @@
+ .outerContainerPricing{
+    height: 92vh;
+    background-image: url("https://automatealgos.github.io/assets/images/banner/home1/bg.png");
+    background-repeat: no-repeat;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: scroll;
+}
+.innerContainerPricing{
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+    
+    justify-content: center;
+    /* margin-left:30%; */
+    
+    /* padding-left: 30px; */
+}
+
+
+p{
+    padding-left: 30px;
+}
+.mb-2 text-muted{
+    padding-left: 30px;
+}
+.heading{
+    background-color: rgb(166, 195, 225);
+    padding: 20px 40px;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .outerContainerPricing{
+        height: 92vh;
+        background-image: url("https://automatealgos.github.io/assets/images/banner/home1/bg.png");
+      background-repeat: no-repeat;
+        padding: 10px 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /* align-items: center; */
+        overflow:scroll;
+    }
+    .innerContainerPricing{
+        display: flex;
+        /* margin-left:30%; */
+        
+       justify-content: space-between;
+        text-align: left;
+        padding-left: 30px;
+        /* padding-right: 30px; */
+    }
+    
+    
+    p{
+        padding-left: 30px;
+    }
+    .mb-2 text-muted{
+        padding-left: 30px;
+    }
+    .heading{
+        background-color: rgb(166, 195, 225);
+        padding: 20px 40px;
+        border-radius: 10px 10px 0px 0px;
+    }
+}

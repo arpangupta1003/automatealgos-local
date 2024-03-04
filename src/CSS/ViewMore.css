@@ -1,0 +1,14 @@
+#viewmoreid {
+
+  text-decoration: none;
+  margin-top: 15px;
+  padding: 15px 25px;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+}
+#viewmorwid:hover {
+  background-color: blue;
+  color: black;
+  
+}

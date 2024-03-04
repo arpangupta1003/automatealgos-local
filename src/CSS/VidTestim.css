@@ -1,0 +1,33 @@
+.vidTestOuterDiv{
+    height: 120vh;
+    /* background-color: blanchedalmond; */
+    background-image: url("https://automatealgos.github.io/assets/images/banner/home1/bg.png");
+  background-repeat: no-repeat;
+}
+.vidTestInnerDiv
+{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+}
+.myCarousel{
+    height: fit-content;
+    width: 65%;
+    border-radius: 30px;
+}
+@media only screen and (max-width: 768px) {
+    .vidTestOuterDiv{
+        height: 150vh;
+        /* background-color: black; */
+        background-image: url("https://automatealgos.github.io/assets/images/banner/home1/bg.png");
+  background-repeat: no-repeat;
+    }
+    .myCarousel{
+        height: fit-content;
+        width: 100%;
+    }
+    iframe{
+        width: 100%;
+    }
+}

@@ -1,0 +1,49 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  margin: 80px 10px;
+}
+
+.ServiceCardDiv {
+  display: flex;
+  justify-content: space-around;
+}
+#cardId{
+  width:18rem;
+    height: 80h;
+    background-color: #ecf4f5;
+    border: 0px,;
+    margin-bottom: 35px;
+    transition: transform 0.8s ease;
+
+}
+#cardId:hover {
+  /* transition: transl; */
+  transform: translateY(-10px);
+  /* background-color: green; */
+}
+
+@media only screen and (max-width: 768px) {
+  .ServiceCardDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .card{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+    .ServiceCardDiv {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .card{
+      display: flex;
+      justify-content: center;
+    }
+  }
+  

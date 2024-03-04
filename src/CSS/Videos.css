@@ -1,0 +1,117 @@
+.VideosPageId {
+  width: 100%;
+  background-image: url('https://automatealgos.github.io/assets/images/banner/home1/bg.png');
+  background-repeat: no-repeat;
+  height: 80vh;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+
+.headingVideos {
+  margin: 10px;
+  margin-top: 3%;
+  color: black;
+  width: 20%;
+  font-family: "Roboto Condensed", sans-serif;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: "#d2b6e";
+  height: 50vh;
+  overflow-x: hidden;
+}
+
+.framesDiv {
+  flex-direction: row;
+}
+
+.framesDiv:hover {
+  border-radius: 100px;
+}
+
+iframe {
+  padding: 10px 20px;
+}
+
+.youtube-video-card {
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+  transition: transform 1.5s;
+}
+
+.netflix-slider-item {
+  padding: 0 8px;
+  transition: transform 0.5s ease;
+}
+
+.netflix-slider-item:focus {
+  outline: none;
+}
+
+.buttClass {
+  z-index: 10;
+  opacity: 0.1;
+  color: black;
+  border: 0px;
+  border-radius: 0px 20px 20px 0px;
+}
+
+#right {
+  border-radius: 20px 0px 0px 20px;
+}
+
+.buttClass:hover {
+  opacity: 0.001;
+  opacity: 1;
+}
+.carousel {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+}
+
+.videos-container {
+  display: flex;
+  transition: transform 0.5s ease; /* Smooth sliding transition */
+}
+
+.buttClass {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* Add any additional styling as needed */
+
+/* Slide the videos horizontally */
+.videos-container {
+  transform: translateX(0);
+}
+
+
+/* Responsive styling for tablet screens */
+@media (max-width: 768px) {
+  .youtube-video-card {
+    flex: 0 0 50%;
+    position: relative;
+  }
+  #right{
+    z-index: 10;
+  }
+}
+
+/* Responsive styling for phone screens */
+@media (max-width: 480px) {
+  .youtube-video-card {
+    flex: 0 0 100%;
+    margin-right: 0;
+  }
+}

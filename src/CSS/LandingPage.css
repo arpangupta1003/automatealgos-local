@@ -1,0 +1,145 @@
+.outerContainerLanding {
+  
+  background-repeat: no-repeat; 
+  background-image: url("https://automatealgos.github.io/assets/images/banner/home1/bg.png");
+  background-repeat: no-repeat;
+  
+  display: flex;
+  flex-direction: column;
+  height: 150vh;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.tech-dreamsLanding {
+  margin-top: 15vh;
+  flex-direction: column;
+  width: 80%;
+  max-width: 800px;
+  /* position: relative; */
+  
+  /* margin: 5% auto;  */
+  padding: 2rem;
+  border-radius: 14px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+
+
+.tech-dreams h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.tech-dreams p {
+  margin-bottom: 1rem;
+  color: #666;
+}
+
+.stats {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.stat {
+  flex: 1;
+}
+.innerStat {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.stat .number {
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+
+.stat .label {
+  display: block;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+
+#stat1Id {
+  border-right: 1px solid black;
+  box-shadow: 1px 0px gray;
+}
+
+
+.tech-dreamsLanding button {
+  margin-top: 10px;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #3f96a7;
+  color: #fff;
+  cursor: pointer;
+  width: 60%;
+}
+
+
+.headingSpan {
+  color: #5498cc;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .outerContainerLanding {
+    background-image: url("https://automatealgos.github.io/assets/images/banner/home1/bg.png");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    height: 90vh;
+    /* position: relative; */
+  }
+  .tech-dreamsLanding {
+    width: 90%;
+  }
+
+  .tech-dreams button {
+    width: 80%;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  .outerContainerLanding {
+    background-image: url("https://automatealgos.github.io/assets/images/banner/home1/bg.png");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: auto;
+    height: 80vh;
+    position: relative;
+  }
+  .tech-dreamsLanding {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+  }
+  .stat {
+    display: flex;
+    flex-direction: column;
+  }
+  .innerStat {
+    display: flex;
+    flex-direction: column;
+  }
+  .tech-dreams button {
+    width: 100%;
+  }
+}
